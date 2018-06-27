@@ -1,0 +1,250 @@
+body{
+    width: 99.3%;
+    /*background-color: antiquewhite;*/
+    font-family: 'Source Sans Pro','Segoe UI','Helvetica Neue',Arial,sans-serif;
+}
+
+/* --------- head ---------*/
+.nav-head{
+    
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.nav-head ul{
+    list-style-type: none;
+    background-color: #1a1a1a;
+    text-align: center;
+    margin: 0;
+}
+.nav-head li{
+    display: inline-block;
+    height: 15px;
+    line-height: 15px;
+    margin-right: 6%;
+    padding: 20px 0px;
+}
+.nav-head li a{
+    text-decoration: none;
+    color: white;
+    font-size: 13px;
+}
+.nav-head li a:hover{
+    color: dodgerblue;
+    transition-duration: 0.2s;
+}
+/*    --------title---------- */
+.title{
+    margin-left: 5%;
+    /*background-color: aquamarine;*/
+    margin-top: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: 50px;
+    font-size: 50px;
+    font-weight: 700;
+    /*border: solid;*/
+}
+.title a{                   
+    text-decoration: none;
+    color: #1a1a1a;
+}
+.title a::selection, .nav-head-2 a::selection{
+    color: white;
+    background-color: #1a1a1a;
+}
+/* ------------nav-head-2  ------*/
+.nav-head-2 {
+    margin-left: 5%;
+    margin-right: 10%;
+    /*background-color: white;*/
+    border-bottom-style:solid;
+    border-bottom-width: 1px;
+    border-top-style:solid;
+    border-top-width: 2px;
+}
+.nav-head-2 ul{
+    list-style-type: none;
+}
+.nav-head-2 li a{
+    text-decoration: none;
+    color: #222;
+    font-size: 14px;
+}
+.nav-head-2 li{
+    display: inline-block;
+    margin-right: 22px;
+    font-size: 19px;
+    line-height: 45px;
+    height: 45px;
+}
+.nav-head-2 a:hover{
+    color: dodgerblue;
+}
+
+/* ---- content -----*/
+.content{
+    margin-left: 5%;    
+    width: 85%;
+}
+.title-content{
+    /* background-color: azure;*/
+    width: 66%;
+    float: left;
+}
+
+.content .make-border{
+    height: 30px;
+    line-height: 30px;
+    color: white;
+    background-color: #1a1a1a;
+}
+
+.sub-content{
+    width: 30%;
+    /*background-color: aqua;*/
+    float: right;
+    padding-top: 15px;
+}
+
+.sub-content p{
+    height: 40px;
+    line-height: 40px;
+    color: white;
+    background-color: #1a1a1a;
+    font-weight: 600;
+    width: 100%;
+    text-indent: 3%;
+}
+
+input[type = "text"]{
+    border: 0.1px solid ;
+    border-color: #EEEEEE;
+    width: 100%;
+    height: 50px;
+}
+
+.fa {
+  float: left;
+  width: 33%;  
+  height: 40px;
+  text-decoration: none;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.fa-facebook {
+  background-color: gainsboro;
+  color: #1a1a1a;
+}
+.fa-facebook:hover{
+	color:white;
+    background-color: #1a1a1a;
+}
+.fa-youtube {
+  background-color: gainsboro;
+  color: #1a1a1a;
+}
+.fa-youtube:hover{
+	color:white;
+    background-color: #1a1a1a;
+}
+.fa-envelope-o:hover{
+    color:white;
+    background-color: #1a1a1a;
+}
+.fa-envelope-o{
+  background-color: gainsboro;
+  color: #1a1a1a;
+}
+
+.remove-float{
+    clear: both;
+}
+.footer{
+    width: 100%;
+    background-color: #1a1a1a;
+    color: white;
+    font-size: 13px;
+    text-align: center;
+    padding: 50px 0px;
+    margin-left: -0.5%;
+}
+.content-left{
+    float: left;
+    /*border: 3px solid;*/
+    width: 48%;
+    word-wrap: break-word;
+}
+.content-right{
+    float: right;
+    /*border: 3px solid; */
+    width: 48%;
+    word-wrap: break-word;
+}
+.newPost p{
+    padding-left: 20px;
+}
+.image-NewPost{
+    float: left;
+    height: 140px;
+    width: 45%;
+}
+.content .make-para{
+    font-weight: 600;
+}
+
+.oldNew{
+   /* border: 1px solid;
+    background-color: darkseagreen;
+    */
+}
+.oldNew span{
+    padding-left: 20px;
+}
+#icon-first::before{
+    content: url(icon1.png);
+}
+#icon-second::before{
+    content: url(icon2.png);
+}
+
+#icon-third::before{
+    content: url(icon3.png);
+}
+#icon-four::after{
+    content: url(icon4.png);
+}
+.title-oldNew{
+    /*background-color:floralwhite;*/
+    
+}
+.image-oldNew{
+    float: left;   
+}
+.button{
+    /*border: 3px solid;*/
+    background-color: dodgerblue;
+    width: 18%;
+    float: right;
+    text-align: center;
+}
+.button a{
+    font-size: 17px;
+    color: white;
+    text-decoration: none;
+}
+.button:hover{
+    background-color: black;
+}
+.image-1{
+    height: 350px;
+    width: 100%;
+}
+.hori {
+    border-color: gainsboro;
+    border-width: 1px;
+    width: 90%;
+    
+}
